@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require File.expand_path('../lib/foodcritic/rules/optoro/version.rb', __FILE__)
+require File.expand_path('../lib/version.rb', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = 'foodcritic-rules-optoro'
