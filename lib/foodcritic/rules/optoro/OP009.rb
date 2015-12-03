@@ -9,7 +9,6 @@ rule "OP009", "Include a chefspec test for every recipe" do
     recipes.each do |r|
       recipe_name = File.basename(r, '.rb')
       valid_spec_paths = [
-        "spec/recipes/#{recipe_name}_spec.rb",
         "spec/#{recipe_name}_spec.rb"
       ]
       specs_exist = valid_spec_paths.any? do |p|
