@@ -15,3 +15,22 @@ Set maintainer_email in metadata.rb to devops@optoro.com
 
 ## OP004 - Use kitchen-ec2 version 0.10.0 or higher
 Kitchen-ec2 version 0.10.0 is the minimum version required
+
+## OP005 - Use berkshelf version 4.00 or higher
+Berkshelf version 4.0 is the minimum version required
+
+## OP006 - Thor must be in Gemfile
+thor gem must be included in the Gemfile
+
+## OP007 - Must have Thorfile
+You must include a Thorfile in your cookbook
+
+## OP008 - No Strainerfile allowed
+Strainerfiles are no longer used in cookbooks, should be removed
+
+## OP009 - Include a chefspec test for every recipe
+Every recipe must have a spec file associated with it
+
+## OP010 - Thorfile food critic test must include -G
+Your Thorfile must include the -G option when foodcritic is run, this is required to get these rules evaluated during the test
+e.g. - ```execute_command('bundle exec foodcritic -f any -B ./ -G')```
