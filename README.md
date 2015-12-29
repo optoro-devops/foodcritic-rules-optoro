@@ -34,3 +34,6 @@ Every recipe must have a spec file associated with it
 ## OP010 - Thorfile food critic test must include -G
 Your Thorfile must include the -G option when foodcritic is run, this is required to get these rules evaluated during the test
 e.g. - ```execute_command('bundle exec foodcritic -f any -B ./ -G')```
+
+## OP011 - Use foodcritic version 5.00 or higher
+Foodcritic version 5.0 is the minimum version required
