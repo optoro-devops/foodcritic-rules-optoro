@@ -46,3 +46,6 @@ Use chef-zero gem 4.4.0 or higher
 
 ## OP014 - Use chef gem 12.6.0 or higher
 Use chef gem 12.6.0 or higher
+
+## OP015 - Must have source_url in metadata pointing to the repository containing the code
+You must have a source_url in your metadta that is pointing to the source code repository
